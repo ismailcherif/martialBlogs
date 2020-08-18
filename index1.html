@@ -3,15 +3,37 @@
   <head>
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<title></title>
-	<script type="text/javascript" src="jQuery.js"></script>
+	 <title></title>
+	   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
   	 <header>
-  	 	<h1>Hello World</h1>
+  	 	<h1>Martial Arts Blog</h1>
   	 </header>
-     <nav><</nav>
-     <section></section>
-
+     <nav>
+     	<a href="HomePage.html">Home</a>|
+     	<a href="MartialHistoryPage.html">History</a>|
+      <a href="Martial-Artist.html" target="_blank">Martial Artist</a>|
+      <a href="index1.html">page1</a>|
+     </nav>
+     <section>
+        <h2>Hello World</h2>
+       <p> Good after noon, ladies and gentlemen my name is Ismail Cherif.
+        I would like to welcome you to my first website in RBK </p>
+     </section>
+      <script type="text/javascript" src="jQuery.js">
+      </script>
+       <script>
+         $("h1").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+       $(this).css("background-color", "red");
+      });
+         $("h2").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+       $(this).css("background-color", "red");
+      });
+      </script>
   </body>
 </html>

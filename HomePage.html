@@ -4,14 +4,43 @@
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<title></title>
-	<script type="text/javascript" src="jQuery.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
   </head>
   <body>
   	 <header>
-  	 	<h1>This is Your HomePage</h1>
+  	 	<h1 id=header>This is Your HomePage</h1>
   	 </header>
-     <nav></nav>
-     <section></section>
-     
+      <nav>
+      <a href="HomePage.html">Home</a>|
+      <a href="MartialHistoryPage.html">History</a>|
+      <a href="Martial-Artist.html" target="_blank">Martial Artist</a>|
+      <a href="index1.html">page1</a>|
+     </nav>
+     <section>
+        <h1>Shaolin Martial Arts</h1>
+        <p>As one of the most important Chinese Kung Fu, Shaolin Martial Arts is regarded as the symbolization. It originated in the Buddhist culture of the  Shaolin Temple in Mt. Songshan, Henan Province. Its essence lies in the combination of Kung Fu and Buddhist ideology, in which manner the monks not only learn the Kungfu skills, but also cultivate themselves by grasping the Buddhist ideology. Furthermore, this Kung Fu style has been well-known due to the functions of self-defence, body-building and athletics. In these years, it has been presented on the world stage and more and more westerners take interest in learning it.</p>
+        <hi>Rules and Taboos</hi>
+       <p>According to the Buddhist Scriptures, the rules and taboos of Shaolin Kung Fu reach to 5,000 entries which mainly include four impressive manners and ten taboos. 
+        <br>
+       Four impressive manners are “lying like a bow, sitting like a bell, waling like a gust of wind and standing like a pine”. Ten taboos refer to ahimsa, abstinence, no stealing, no amativeness, no arrogance, no luxury and other moral disciplines.</p>
+       <br>
+       <h1> Rules and Taboos </h1>
+       <br>
+       <p>According to the Buddhist Scriptures, the rules and taboos of Shaolin Kung Fu reach to 5,000 entries which mainly include four impressive manners and ten taboos. Four impressive manners are “lying like a bow, sitting like a bell, waling like a gust of wind and standing like a pine”. Ten taboos refer to ahimsa, abstinence, no stealing, no amativeness, no arrogance, no luxury and other moral disciplines.</p>
+     </section>
+     <script type="text/javascript" src="jQuery.js"></script>
+      <script>
+         $("h1").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+       $(this).css("background-color", "red");
+      });
+         $("h2").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+       $(this).css("background-color", "red");
+      });
+      </script>
   </body>
 </html>
